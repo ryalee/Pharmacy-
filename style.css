@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Heebo:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+}
+
+body{
+  background-color: #eaeaea;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #40b5bf;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.callTo_Header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.callTo_item {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 22px;
+  padding: 10px;
+  color: #000;
+}
+
+.callTo_item:hover {
+  color: #aaffe3;
+}
+
+.callTo_item li {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.logo {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+}
+
+.heroImg img {
+  width: 500px;
+  margin-left: 700px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
